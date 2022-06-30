@@ -19,7 +19,7 @@ int main() {
             string s_tmp = s.substr(idx, size);
             //cout << s_tmp << endl;
 
-            // Ã³À½ ÅÏÀÌ ¾Æ´Ò ¶§
+            // 처음 턴이 아닐 때
             
             if (before.compare("\n") != 0) {
                 if (before.compare(s_tmp) == 0) {
