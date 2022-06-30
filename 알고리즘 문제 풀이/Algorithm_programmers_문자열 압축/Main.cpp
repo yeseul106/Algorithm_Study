@@ -3,10 +3,10 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int solution(string s) {
 
-	string s;
-	getline(cin, s);
+	//string s;
+	//getline(cin, s);
 
     int answer = s.length();
 
@@ -49,6 +49,6 @@ int main() {
             answer = new_s.length();
         }
     }
-
-    cout << answer << endl;
+    //cout << answer << endl;
+    return answer;
 }
