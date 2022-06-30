@@ -4,7 +4,6 @@
 using namespace std;
 
 string solution(string new_id) {
-    
      string answer = "";
     
     	while (true) {
